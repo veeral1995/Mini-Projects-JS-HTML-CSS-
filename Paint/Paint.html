@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+Veeral Patel
+CISC131
+10/28/14
+Template
+-->
+<html lang="en">
+<head>
+<title> Javascript </title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="Paint.js" type="text/javascript"> </script>
+
+<style type="text/css">
+body
+{
+	font-family: "Times New Roman", serif;
+	font-size: 12pt;
+	}
+.page
+{
+	height: 38em;
+	width: 60em;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	}
+.header
+{
+	height: 1.3em;
+	width: 40em;
+	font-size: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	background-color: pink;
+	}
+.boxy
+{
+	height: 1em;
+	width: 1em;
+	border: 1px solid black;
+	position: relative;
+	float: right;
+	margin-right: 770px;
+	margin-top: 2.5px;
+	}
+.drawingpalette
+{
+	height: 40em;
+	width: 15em;
+	float: left;
+	}
+.area
+{
+	height: 36.17em;
+	width: 30em;
+	float: left;
+	}
+.colorpalette
+{
+	height: 40em;
+	width: 15em;
+	float: right;
+	}
+.box
+{
+width: 15em;
+height: 3.89em;
+border: 1px solid black;
+}
+.square
+{
+width: 15em;
+height: 3.89em;
+border: 1px solid black;
+}
+.littlebox
+{
+	width: 1.029em;
+	height: 1em;
+	float: left;
+}
+</style>
+</head>
+<body>
+<div class="page" id="page">
+<div class="header" id="header"><div>Click-A-Sketch<div class="boxy" id="colorbox"></div></div></div>
+<div class="drawingpalette" id="drawingColorPalette"></div>
+<div class="area" id="drawingPalette"><div class="littlebox"></div></div>
+<div class="colorpalette" id="canvasColorPalette"></div>
+</div>
+</body>
+</html>
